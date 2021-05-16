@@ -309,10 +309,11 @@ MrG.on('group-participants-update', async (anu) => {
 ┏━━━━━━━━━━━━━━━
 ┃────「 *_INTRO_* 」─────
 ┃━━━━━━━━━━━━━━━
-┠•> *Nama* :
+┠•> *Nama panjang * :
+┠•> *Nama panggil * :
 ┠•> *Umur* :
 ┠•> *Kelamin* :
-┠•> *Askot* :
+┠•> *Askot*:
 ┗━━━━━━━━━━━━━━━
 
 ᴋᴇᴛɪᴋ ${prefix}daftar nama|umur ᴜɴᴛᴜᴋ ᴍᴇᴍᴜʟᴀɪ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ`
@@ -1078,11 +1079,6 @@ Mr = `╭────┈ ↷
 ┃□│✎┊*TQTO*
 ┃□│╭────────╯
 ┃□││❏MR.108P
-┃□││❏SofyanAmv
-┃□││❏Ivan_maulana
-┃□││❏Mr.A43G
-┃□││❏Arashi
-┃□││❏Ramlan ID
 ╰─────────────────┈ ❁ཻུ۪۪⸙͎`
 MrG.sendMessage(from, tod, image, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "productMessage":{"product":{"productImage":{"mimetype":"image/jpeg","height":736,"width":736,"jpegThumbnail":fs.readFileSync(`./images.jpg`)},"productId":"3937202479680283","title":"@Animecarry","currencyCode":"RP","priceAmount1000":"999999999000","productImageCount":1},"businessOwnerJid":"0@s.whatsapp.net"}}}, contextInfo: { forwardingScore: 508, isForwarded: true, mentionedJid: [ow]}, caption: Mr})
             break
